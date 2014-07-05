@@ -1,0 +1,186 @@
+body
+{
+	padding:0;
+	margin:0;
+}
+
+#header #logo img
+{
+	width:100%;
+}
+
+/*#header #info #nav_link*/
+
+#header  .nav_tab
+{
+	text-align:center;
+	width:120px;
+}
+
+:hover
+{
+	background-image: url("img_tree.png");
+	background-attachment:right;
+	background-position:top;
+}
+
+#header  .nav_tab:hover >a >p
+{
+	visibility:hidden;
+}
+
+
+#header  .nav_tab a p
+{
+	color:#000000;
+}
+
+#header  .nav_tab a
+{
+	text-decoration:none;
+}
+
+#header #about
+{
+	background-color:#dc4844;
+}
+
+#header #about:hover
+{
+	background-image: url("../images/about.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+#header #join
+{
+	background-color:#45a9c1;
+}
+
+#header #join:hover
+{
+	background-image: url("../images/join_us.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+#header #meetus	
+{
+	background-color:#e5365d;
+}
+
+#header #meetus:hover
+{
+	background-image: url("../images/meetus.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+#header #contact
+{
+	background-color:#feb913;
+}
+
+#header #contact:hover
+{
+	background-image: url("../images/mail_icon.png");
+	background-repeat:no-repeat;
+	
+	background-position:center top;
+}
+
+#login_img
+{
+	position:relative;
+}
+
+#login_img #backgrnd_pic
+{
+	width:100%;
+}
+
+#login_img #search_form
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	width: 500px;
+	margin-left: -250px;
+}
+
+#login_img #search_form input
+{
+	border:1px solid #ababab;
+	
+}
+
+#login_img #search_form input#search_text
+{
+	width:inherit;
+	padding:15px;
+	
+}
+
+#login_img #search_form input#icon
+{
+	height:100%;
+	width:100%;
+}
+
+#login_img #sign_in
+{
+	position: absolute;
+	bottom: 30%;
+	left: 20%;
+	/*background: none repeat scroll 0% 0% #E3E3E3;*/
+	width: 190px;
+	text-align: center;
+	font-size: 28px;
+	border-radius:10px;
+	border: 5px solid #e3e3e3;
+}
+
+#login_img #sign_in:hover
+{
+	background: none repeat scroll 0% 0% #E3E3E3;
+}	
+
+#login_img #sign_in a
+{
+	text-decoration:none;
+	color:#353535;
+}
+
+#login_img #sign_in a p
+{
+	margin: 10px auto;
+}
+
+#login_img #join
+{
+	position: absolute;
+	bottom: 30%;
+	right: 20%;
+	/*background: none repeat scroll 0% 0% #E3E3E3;*/
+	width: 190px;
+	text-align: center;
+	font-size: 28px;
+	border-radius:10px;
+	border: 5px solid #e3e3e3;
+}
+
+#login_img #join:hover
+{
+	background: none repeat scroll 0% 0% #E3E3E3;
+}	
+
+#login_img #join a
+{
+	text-decoration:none;
+	color:#353535;
+}
+
+#login_img #join a p
+{
+	margin: 10px auto;
+}
